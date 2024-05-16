@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/home")
+@RequestMapping("/save")
 public class PractiseController {
-	@GetMapping("/get")
-	public String getValue()
+	@GetMapping("/home")
+	public String home()
 	{
-		return "Hello Sujit kumar";
+		return "index";
 	}
 
 }
